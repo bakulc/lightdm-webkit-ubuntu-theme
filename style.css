@@ -39,7 +39,7 @@ span.session_label:before {
 	display: block;
 	width: 2em;
 	height: calc(1em + 8px);
-	border: 5px solid #08c;
+	border: 5px solid #E95420;
 	border-radius: 10px 0 0 10px;
 	border-right: 0px none;
 	position: absolute;
@@ -53,7 +53,7 @@ span.session_label {
 	width: 10em;
 	text-align: left;
 	padding: .2em 0 .2em 1em;
-	border: 5px solid #08c;
+	border: 5px solid #E95420;
 	border-radius: 0 10px 10px 0;
 	margin: .2em 0 .2em 0em;
 	border-left: 0;
@@ -68,14 +68,14 @@ span.session_label {
 
 #session_container input:checked ~ span.session_label:before, 
 #session_container input:checked ~ span.session_label:hover:before {
-	background-color:#08c;
+	background-color:#E95420;
 }
 
 input[type=password] {
 	border-radius: 10px;
 	padding: .3em 1em;
 	-webkit-transition: box-shadow 0.3s ease-in-out;
-	border: 5px solid #08c;
+	border: 5px solid #E95420;
 	width: 13.6em;
 	display: inline-block;
 	position: relative;
@@ -115,7 +115,7 @@ a {
 .header {
   background-color: #333;
   height: 55px;
-  border-bottom: 5px solid #08c;
+  border-bottom: 5px solid #E95420;
   box-shadow: 0 0 1px 1px #222;
 }
 
@@ -124,8 +124,9 @@ a {
   margin: 10px !important;
   padding: 0 !important;
   height: 40px !important;
-  width: 190px !important;
-  background: url('archlogo.png') no-repeat;
+  width: 125px !important;
+  background: url('ubuntu.png') no-repeat;
+  background-size: 125px 40px;
 }
 
 .footer {
@@ -194,7 +195,7 @@ a {
   height: 80px;
 
   border-radius: 80px;
-  border: 5px solid #08c;
+  border: 5px solid #E95420;
   -webkit-transition: all 0.3s ease-in-out;
 
   margin-left: auto;
@@ -202,7 +203,7 @@ a {
 }
 
 .user_image_wrapper:hover {
-  box-shadow:  0 0 5px 5px #08c;
+  box-shadow:  0 0 5px 5px #E95420;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
